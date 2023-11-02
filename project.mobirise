@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DIABRA ORPHAN MINISTRY",
-    "currentPage": "page4.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -54,10 +54,10 @@
     "imageResize": true,
     "usedWebp": true,
     "favicon": false,
-    "mbrsiteDomain": "ouyeiwssnw",
+    "mbrsiteDomain": "aydztm8ohc",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
@@ -65,7 +65,8 @@
     "versionPublish": "5.9.7",
     "screenshot": "screenshot.png",
     "witsec-white-label": true,
-    "witsec-search": false
+    "witsec-search": false,
+    "google-analytics": "\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-LLHB2HHX2S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-LLHB2HHX2S');\n</script>\n"
   },
   "pages": {
     "index.html": {
@@ -75,7 +76,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "socialSharingUrl": ""
       },
       "components": [
         {
@@ -1686,7 +1688,7 @@
         }
       ]
     },
-    "page1.html": {
+    "about.html": {
       "settings": {
         "title": "About",
         "meta_descr": "",
@@ -2994,7 +2996,7 @@
         }
       ]
     },
-    "page2.html": {
+    "gallery.html": {
       "settings": {
         "title": "Gallery",
         "meta_descr": "",
@@ -4520,7 +4522,7 @@
         }
       ]
     },
-    "page3.html": {
+    "donations.html": {
       "settings": {
         "title": "Donations",
         "meta_descr": "",
@@ -5733,7 +5735,7 @@
         }
       ]
     },
-    "page4.html": {
+    "contact.html": {
       "settings": {
         "title": "Contact",
         "meta_descr": "",
